@@ -2,7 +2,16 @@
 Group leader: Tianyu Li,   
 Group members: Bingchen Qiu, Junliang Liu, Runmin Li, Ziyi Zhang   
 (Sorted by the first letter of the first names)     
- 
+
+Introduction
+The goal of the group project is to work together to solve a computer vision problem and present solutions and results in both oral and written form. 
+We use Computer vision methods to help to precisely segment crop from field images.
+
+Dataset
+The public dataset to be used in this group project is available from EWS-Dataset.zip.
+It contains 190 RGB images of 350 x 350 pixels with manual annotation in the form of binary masks for plants and soil
+
+Methods   
 Feature-based Pixel Classification + Random Forest by TTToo9(Runmin Li)  
 K-means by peterqiu616(Bingchen Qiu)  
 SAM by leoljom(Tianyu Li)  
