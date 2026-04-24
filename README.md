@@ -17,7 +17,12 @@ K-means by peterqiu616(Bingchen Qiu)
 SAM by leoljom(Tianyu Li)   
 Sam_zero-shot_val by Kayins2778(JunLiang Liu)  
 Watershed by 2YULt1(Ziyi Zhang)  
-(Sorted by the first letter of the method/algorithm) 
+(Sorted by the first letter of the method/algorithm)   
+
+Finally,we simplified SAM to obtain sam_zero-shot_val to evaluate the segmentation capability of SAM.  
+It was not trained or fine-tuned on the EWS-Dataset.  
+Instead,it directly used the pre-trained weights and was evaluated on the validation set.  
+The final result was 1 minute and 41 seconds.
 
 Most of the notebooks run based on libraries like opencv-python, numpy, matplotlib, scikit-learn.   
 Notebook SAM.ipynb will besides use other libraries like PyTorch, garbage collect(gc). 
@@ -31,4 +36,4 @@ Also, please download the corresponding checkpoint file of ViT model you choose.
     ViT_L: https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth   
     ViT_B: https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth   
 Otherwise, please follow the steps in the notebook if you are using Kaggle or Colab.  
-Finally, based on SAM, we created a simplified version sam_zero-shot_val.
+
