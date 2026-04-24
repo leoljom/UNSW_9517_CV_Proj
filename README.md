@@ -14,7 +14,7 @@ It contains 190 RGB images of 350 x 350 pixels with manual annotation in the for
 Methods   
 Feature-based Pixel Classification + Random Forest by TTToo9(Runmin Li)  
 K-means by peterqiu616(Bingchen Qiu)  
-SAM by leoljom(Tianyu Li)  
+SAM by leoljom(Tianyu Li)   
 Sam_zero-shot_val by Kayins2778(JunLiang Liu)
 Watershed by 2YULt1(Ziyi Zhang)  
 (Sorted by the first letter of the method/algorithm)   
