@@ -22,7 +22,7 @@ Watershed by 2YULt1(Ziyi Zhang)
 Finally, we simplified SAM to obtain sam_zero-shot_val to evaluate the segmentation capability of SAM.  
 It was not trained or fine-tuned on the EWS-Dataset.  
 Instead, it directly used the pre-trained weights and was evaluated on the validation set.  
-The final running time was 1 minute and 41 seconds.
+The final running time was 2 minutes 31 seconds and 1 minute 41 seconds on RTX5060 mobile.
 
 Most of the notebooks run based on libraries like opencv-python, numpy, matplotlib, scikit-learn.   
 Notebook SAM.ipynb will besides use other libraries like PyTorch, garbage collect(gc). 
