@@ -15,9 +15,9 @@ Methods
 Feature-based Pixel Classification + Random Forest by TTToo9(Runmin Li)  
 K-means by peterqiu616(Bingchen Qiu)  
 SAM by leoljom(Tianyu Li)   
-Sam_zero-shot_val by Kayins2778(JunLiang Liu)
+Sam_zero-shot_val by Kayins2778(JunLiang Liu)  
 Watershed by 2YULt1(Ziyi Zhang)  
-(Sorted by the first letter of the method/algorithm)   
+(Sorted by the first letter of the method/algorithm) 
 
 Most of the notebooks run based on libraries like opencv-python, numpy, matplotlib, scikit-learn.   
 Notebook SAM.ipynb will besides use other libraries like PyTorch, garbage collect(gc). 
