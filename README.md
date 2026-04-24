@@ -19,9 +19,9 @@ Sam_zero-shot_val by Kayins2778(JunLiang Liu)
 Watershed by 2YULt1(Ziyi Zhang)  
 (Sorted by the first letter of the method/algorithm)   
 
-Finally,we simplified SAM to obtain sam_zero-shot_val to evaluate the segmentation capability of SAM.  
+Finally, we simplified SAM to obtain sam_zero-shot_val to evaluate the segmentation capability of SAM.  
 It was not trained or fine-tuned on the EWS-Dataset.  
-Instead,it directly used the pre-trained weights and was evaluated on the validation set.  
+Instead, it directly used the pre-trained weights and was evaluated on the validation set.  
 The final running time was 1 minute and 41 seconds.
 
 Most of the notebooks run based on libraries like opencv-python, numpy, matplotlib, scikit-learn.   
